@@ -486,11 +486,11 @@ document.getElementById("rangerIcon").onclick = function (e) { // Change button 
 };
 
 // Toggle permit station layer
-var togglerangerId = ["permit_station"]; // Add layer
+var togglepermitId = ["permit_station"]; // Add layer
 
 document.getElementById("permitIcon").onclick = function (e) { // Change button name, getElementById('Replace')
-	for (var index in togglerangerId) {
-		var clickedLayer = togglerangerId[index];
+	for (var index in togglepermitId) {
+		var clickedLayer = togglepermitId[index];
 		e.preventDefault();
 		e.stopPropagation();
 
