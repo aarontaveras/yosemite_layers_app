@@ -1,0 +1,75 @@
+<!doctype html>
+<!--
+*** ANAGRAM MAPS & ANALYSIS
+*** ANAGRAM.STUDIO
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+<title>Yosemite Outdoor Map (beta)</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<!-- Custom CSS: Local -->
+<link rel="stylesheet" href="../Yosemite-Web-Map/CSS/custom.css">
+
+<!-- Balloon CSS: Local -->
+<link rel="stylesheet" href="../Yosemite-Web-Map/CSS/balloon.css">
+
+<!-- Animate CSS: Local -->
+<link rel="stylesheet" href="../Yosemite-Web-Map/Animate/animate.min.css">
+
+<!-- Mapbox GL JS: Remote -->
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+
+<!-- Mapbox GL JS: Remote -->
+<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css" rel="stylesheet"/>
+
+<!-- Jquery: Remote -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+<!-- Main Code Block -->
+<div class="breakpoint">
+  <div class="side-navigation animated slideInLeft"> </div>
+  <div class="sidebar animated slideInLeft delay-1s">
+    <div data-balloon="Clear search to reset the list" data-balloon-pos="right" id="search">
+      <div class="heading">
+        <input type="text" id="searchInput" onkeyup="myFunction()" placeholder="SEARCH TRAILHEADS...">
+      </div>
+    </div>
+    <div id="listings" class="listings"></div>
+  </div>
+  <div class="logo-container animated fadeIn delay-1s"> <a href="https://aarontaveras.github.io/">
+    <div class="logo"></div>
+    </a>
+    <div class="button-stack">
+      <button data-balloon="Campsites" data-balloon-pos="right" id="campsiteIcon"></button>
+      <button data-balloon="High Camps" data-balloon-pos="right" id="highcampIcon"></button>
+      <button data-balloon="Drinking Water" data-balloon-pos="right" id="drinkingIcon"></button>
+      <button data-balloon="Climbing Areas" data-balloon-pos="right" id="climbingIcon"></button>
+      <button data-balloon="Ranger Stations" data-balloon-pos="right" id="rangerIcon"></button>
+      <button data-balloon="Wilderness Permits" data-balloon-pos="right" id="permitIcon"></button>
+      <button data-balloon="Bathrooms" data-balloon-pos="right" id="bathroomIcon"></button>
+      <button data-balloon="Markets" data-balloon-pos="right" id="marketIcon"></button>
+    </div>
+  </div>
+  <div class="info-button-stack animated fadeIn delay-1s"> <a href="https://github.com/aarontaveras/aarontaveras.github.io">
+    <button data-balloon="Information" data-balloon-pos="right" id="information"></button>
+    </a> </div>
+  <div class="main-block">
+    <div id="map"></div>
+  </div>
+</div>
+
+<!-- Replacement Code Block -->
+<div class="breakpoint-replace">
+  <p class="text-box">You may want to use a bigger screen.</p>
+</div>
+
+<!-- Mapbox GL JS: Local --> 
+<script type="text/javascript" src="../Yosemite-Web-Map/JS/map.js"></script>
+</body>
+</html>
