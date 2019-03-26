@@ -120,7 +120,7 @@ map.on('style.load', function () {
 		"source": "points",
 		"filter": ["==", "$type", "Point"],
 		"layout": {
-			"icon-image": "Toilet-icon",
+			"icon-image": "Bathroom-icon",
 			"icon-size": 1,
 			"icon-anchor": "bottom",
 			"visibility": "none",
