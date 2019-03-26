@@ -45,7 +45,7 @@ map.on('style.load', function () {
 		"source": "points",
 		"filter": ["==", "$type", "Point"],
 		"layout": {
-			"icon-image": "Drinking-water-icon",
+			"icon-image": "Water-source-icon",
 			"icon-size": 1,
 			"icon-anchor": "bottom",
 			"visibility": "none",
