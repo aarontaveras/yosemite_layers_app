@@ -18,11 +18,11 @@ var bounds = [
 
 var map = new mapboxgl.Map({
 	container: 'map',
-	style: 'mapbox://styles/anagramstudio/cjtkjlsue20in1fo33jn94ukh',
+	style: 'mapbox://styles/anagramstudio/cjts7b6c58xy31foc7i5r4q3d',
 	center: [-119.573159, 37.739671],
 	zoom: 11,
 	minZoom: 10,
-	maxZoom: 15,
+	maxZoom: 16,
 	maxBounds: bounds
 });
 
