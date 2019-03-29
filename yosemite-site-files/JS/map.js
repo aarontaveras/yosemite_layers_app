@@ -75,7 +75,7 @@ map.on('style.load', function () {
 		"source": "points",
 		"filter": ["==", "$type", "Point"],
 		"layout": {
-			"icon-image": "Climbing-icon-3",
+			"icon-image": "Climbing-icon",
 			"icon-size": 1,
 			"icon-anchor": "bottom",
 			"visibility": "none",
