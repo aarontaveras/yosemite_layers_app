@@ -506,6 +506,10 @@ a.mapboxgl-ctrl-logo {
 .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip {
 	border-top-color: #69dd76 !important;
 }
+.mapboxgl-ctrl-scale {
+  margin: 0 15px 15px 0 !important;
+  float: right;
+}
 
 /* Trail Items */
 #search {
