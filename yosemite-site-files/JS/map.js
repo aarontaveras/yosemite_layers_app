@@ -29,6 +29,13 @@ var map = new mapboxgl.Map({
 // Add zoom controls
 map.addControl(new mapboxgl.NavigationControl());
 
+// Add scale bar
+var scale = new mapboxgl.ScaleControl({
+    unit: 'imperial'
+});
+
+map.addControl(scale, 'bottom-right');
+
 /////////////////////////////////////////////////////////////
 // LOAD POINT LAYERS
 /////////////////////////////////////////////////////////////
