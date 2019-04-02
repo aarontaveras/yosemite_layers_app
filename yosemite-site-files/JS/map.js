@@ -383,11 +383,11 @@ map.on('mousemove', function (e) {
 /////////////////////////////////////////////////////////////
 
 // Toggle trailhead layer
-var toggletrailheadId = ["drinking"]; // Add layer
+var toggledrinkingwaterId = ["drinking"]; // Add layer
 
 document.getElementById("drinkingIcon").onclick = function (e) { // Change button name, getElementById('Replace')
-	for (var index in toggletrailheadId) {
-		var clickedLayer = toggletrailheadId[index];
+	for (var index in toggledrinkingwaterId) {
+		var clickedLayer = toggledrinkingwaterId[index];
 		e.preventDefault();
 		e.stopPropagation();
 
