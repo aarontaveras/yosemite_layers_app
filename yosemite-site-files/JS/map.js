@@ -43,7 +43,7 @@ map.addControl(scale, 'bottom-right');
 map.on('style.load', function () {
 	map.addSource("points", {
 		type: "geojson",
-		data: "https://raw.githubusercontent.com/aarontaveras/Yosemite_POI/master/Yosemite_POI_3_23.geojson"
+		data: "https://raw.githubusercontent.com/aarontaveras/yosemite_poi/master/yosemite_poi_update.geojson"
 	});
 
 	map.addLayer({
