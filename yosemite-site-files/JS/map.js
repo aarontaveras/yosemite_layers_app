@@ -175,7 +175,7 @@ map.on('style.load', function () {
 // LOAD ALL POINT LAYERS WITH NAMES FOR LIST
 /////////////////////////////////////////////////////////////
 
-var stores = "https://raw.githubusercontent.com/aarontaveras/Yosemite_Trailheads/master/Yosemite_Trailheads_3_24.geojson";
+var stores = "https://raw.githubusercontent.com/aarontaveras/yosemite_trailheads/master/yosemite_trailheads_update.geojson";
 
 map.on('load', () => {
 	fetch(stores)
