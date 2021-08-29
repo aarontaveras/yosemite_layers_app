@@ -18,7 +18,7 @@ var bounds = [
 
 var map = new mapboxgl.Map({
 	container: 'map',
-	style: 'mapbox://styles/aarontaveras/ckswh4k3u2kx217o6v5nlkq3l',
+	style: 'mapbox://styles/aarontaveras/ckswhwwrt435817s39buqbjus',
 	center: [-119.573159, 37.739671],
 	zoom: 11,
 	minZoom: 10,
