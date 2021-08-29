@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////
 
 // Initiate map
-mapboxgl.accessToken = 'pk.eyJ1IjoiYW5hZ3JhbXN0dWRpbyIsImEiOiJjanNsZHBsY2wwOGFvNDlueDBkZDExdWdtIn0.9XMxTQbfO7-_7JVTT4vtZg';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWFyb250YXZlcmFzIiwiYSI6ImNrc3doMnZqYzEyeW8yeXMybTVybGg4bHYifQ.ONQjSw-O7Z7b5a3nUOBcKw';
 
 var bounds = [
 	[-120.877490, 37.227085], // Southwest coordinates
@@ -18,7 +18,7 @@ var bounds = [
 
 var map = new mapboxgl.Map({
 	container: 'map',
-	style: 'mapbox://styles/anagramstudio/cjts7b6c58xy31foc7i5r4q3d',
+	style: 'mapbox://styles/aarontaveras/ckswh4k3u2kx217o6v5nlkq3l',
 	center: [-119.573159, 37.739671],
 	zoom: 11,
 	minZoom: 10,
